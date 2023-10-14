@@ -190,6 +190,9 @@ a{
   padding: 20px;
 }
  
+/*Formulario de contacto */
+
+
   .contact_form{  
     width: 460px; 
     height: auto;
@@ -198,7 +201,8 @@ a{
     padding-top: 30px;
     padding-bottom: 20px;  
     background-color: #fbfbfb; 
-    padding-left: 30px; 
+    padding-left: 15px; 
+    padding-right: 15px;
   }
   
   
@@ -324,7 +328,32 @@ a{
     margin-right: 2em;
     margin-bottom: 1rem;
   }
+
+  .checkboxdiv{
+    display: flex;
+    align-items: center;
+
+  }
+ 
+  input[type="checkbox"] {
+    transform: scale(0.7); /* Reducir el tamaño de los checkboxes */
+  }
   
+  .labelslocalizacion{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  .divlocalizacion{
+    display:flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+
    .foot{
     text-align: center;  
     width: 100%;

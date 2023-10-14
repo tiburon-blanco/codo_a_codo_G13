@@ -1,3 +1,4 @@
+
 //Constante para que obtenga los datos de la página
 const sendBtn = document.getElementById("enviar")
 
@@ -8,6 +9,7 @@ sendBtn.addEventListener("click", (event) => {
     const telefono = document.getElementById("telefono").value
     const asunto = document.getElementById("assunto").value
     const mensaje = document.getElementById("mensaje").value
+    
 
 //Condicionales
     if (name === "" || typeof name !== "string") {
