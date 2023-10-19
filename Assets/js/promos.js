@@ -53,15 +53,16 @@ var data = [
 var promo=[];
 if (document.getElementById("container_promos")) {
     for (let i = 0; i < data.length; i++) {
-     promo += `<div>
+     promo += `<a href="contactanos.html">
+        <div class="card_promo">
         <img src=${data[i].img} alt="chubut" class=img >
         <p class="lugar">${data[i].lugar}</p> 
         <p class="estadia">${data[i].estadia}</p> 
         <p class="traslado">${data[i].traslado}</p> 
         <p class="pension">${data[i].pension}</p> 
         <p class="precio">$ ${data[i].precio}</p>
-         </div>`;
+        </div>
+        </a>`;
     }
     document.getElementById("container_promos").innerHTML=promo;
-    
 }
