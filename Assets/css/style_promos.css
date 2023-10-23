@@ -6,12 +6,14 @@
         'line1 line1 line1'
         'line2 line2 line2';
     place-items: center;
-
 }
-a, a:link, a:visited{
+.a_promo,
+.a_promo:link,
+.a_promo:visited {
     text-decoration: none;
     color: #070707;
 }
+
 .card_promo {
     border: none;
     padding: none;
